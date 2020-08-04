@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ivy's blog"
+title                    : "Clare's not-so-secret blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Ivoline Ngong"
-description              : "All things AI"
+name                     : "Ngong Ivan-Clare"
+description              : "Confessions of a DevOps girl"
 url                      : https://ivyclare.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" #false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "ivyclare-github-io" #"https-ivyclare-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "ivanclare-github-io" #"https-ivyclare-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -93,24 +93,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ivoline Ngong"
+  name             : "Ivan-Clare Ngong"
   avatar           : "/assets/images/profile_pic.jpg"
-  bio              : "AI rocks my world."
-  location         : "Turkey"
+  bio              : "Journyeing through the cloud, rocking the world of distibuted computing."
+  location         : "France"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:ivolinengong@gmail.com
+      url: mailto:ngongivan@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/IvolineNgong"
+      url: "https://twitter.com/Ivanngong"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.linkedin.com/in/ivolinengong/"
+      url: "https://www.linkedin.com/in/ngong-ivan-clare"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ivyclare"
+      url: "https://github.com/ivan-claire"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -277,7 +277,7 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
+https://github.com/ivan-claire
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
