@@ -277,7 +277,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-https://github.com/ivan-claire
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
