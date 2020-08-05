@@ -11,9 +11,9 @@ layouts_gallery:
   - url: https://ivyclare.github.io/docker/
     image_path: /assets/images/blog_docker.png
   - url: https://ivyclare.github.io/terraform/
-    image_path: /assets/images/blog_terraform.jpg
+    image_path: /assets/images/blog_terraform.png
   - url: https://ivyclare.github.io/jenkins/
-    image_path: /assets/images/blog_jenkins.png
+    image_path: /assets/images/blog_jenkins.jpg
   - url: https://ivyclare.github.io/blog_aws/
     image_path: /assets/images/blog_aws.jpg
   - url: https://ivyclare.github.io/bash/
