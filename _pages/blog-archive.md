@@ -6,21 +6,25 @@ title: "Topics"
 header:
      image: "/assets/images/header2.jpg"
 layouts_gallery:
-  - url: https://ivyclare.github.io/ml/
-    image_path: /assets/images/blog_ml.jpeg
-  - url: https://ivyclare.github.io/dl/
-    image_path: /assets/images/blog_dl.jpg
-  - url: https://ivyclare.github.io/cv/
-    image_path: /assets/images/blog_cv.jpg
-  - url: https://ivyclare.github.io/nlp/
-    image_path: /assets/images/blog_nlp2.png
-  - url: https://ivyclare.github.io/blog_cv/
-    image_path: /assets/images/blog_de.jpg
-  - url: https://ivyclare.github.io/privacy/
-    image_path: /assets/images/blog_privacy.jpg
+  - url: https://ivyclare.github.io/kubernetes/
+    image_path: /assets/images/blog_kubernetes.jpeg
+  - url: https://ivyclare.github.io/docker/
+    image_path: /assets/images/blog_docker.jpg
+  - url: https://ivyclare.github.io/terraform/
+    image_path: /assets/images/blog_terraform.jpg
+  - url: https://ivyclare.github.io/jenkins/
+    image_path: /assets/images/blog_jenkins.png
+  - url: https://ivyclare.github.io/blog_aws/
+    image_path: /assets/images/blog_aws.jpg
+  - url: https://ivyclare.github.io/bash/
+    image_path: /assets/images/blog_bash.jpg
+  - url: https://ivyclare.github.io/blog_ansible/
+    image_path: /assets/images/blog_ansible.jpg
+  - url: https://ivyclare.github.io/azure/
+    image_path: /assets/images/blog_azure.jpg
 ---
 
-Navigate through the different topics I cover here:
+Journey with me through the different topics I dive into here:
 
 ## Topics Grouped by Category
 
