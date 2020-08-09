@@ -15,7 +15,7 @@ Want to learn difficult concepts in a fun way? Check out the comics below...
 
 <div class="grid__wrapper">
     {% for post in site.posts %}
-        {% if post.categories contains 'comic' %}
+        {% if post.categories contains 'kubernetes' %}
             {% include archive-single.html type="grid" %}
         {% endif %}
     {% endfor %}
