@@ -8,7 +8,7 @@ read_time: true
 categories: [kubernetes]
 header :
     image: "/assets/images/kube_header.png"
-    teaser: "/assets/images/kube_teaser.png"
+    teaser: "/assets/images/pate.png"
 comments : true
 related: true
 excerpt: "Are you a visual learner like me? Then hurry up and check out this comic on differential privacy!"
