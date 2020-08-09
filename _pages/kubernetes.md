@@ -1,5 +1,5 @@
 ---
-title: Machine Learning
+title: Kubernetes
 layout: single
 permalink: /kubernetes/
 author_profile: true
