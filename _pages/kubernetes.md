@@ -1,10 +1,10 @@
 ---
 title: Machine Learning
 layout: single
-permalink: /ml/
+permalink: /kubernetes/
 author_profile: true
 header :
-    image: "/assets/images/ml_header.jpg"
+    image: "/assets/images/kube_header.jpg"
 sidebar:
     nav: sidebar-sample
 ---
