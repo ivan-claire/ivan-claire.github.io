@@ -1,14 +1,14 @@
 ---
 published: true
-collection: comic
+collection: kubernetes
 layout: single
-title: PATE Framework
+title: Core Concepts
 author_profile: true
 read_time: true
-categories: [comic]
+categories: [kubernetes]
 header :
-    image: "/assets/images/pate22.png"
-    teaser: "/assets/images/pate.png"
+    image: "/assets/images/kube_header.png"
+    teaser: "/assets/images/kube_teaser.png"
 comments : true
 related: true
 excerpt: "Are you a visual learner like me? Then hurry up and check out this comic on differential privacy!"
