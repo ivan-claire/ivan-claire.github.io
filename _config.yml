@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -177,22 +177,22 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Collections
 collections:
-  dl:
+  docker:
     output: true
     permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
-  ml:
+  kubernetes:
     output: true
     permalink: /:collection/:path/
   comic:
     output: true
     permalink: /:collection/:path/
-  bigdata:
+  terraform:
     output: true
     permalink: /:collection/:path/
-  tuto:
+  aws:
     output: true
     permalink: /:collection/:path/
 
@@ -288,10 +288,10 @@ compress_html:
 # Defaults
 defaults:
 
-  # _ml
+  # _kubernetes
   - scope:
       path: ""
-      type: ml
+      type: kubernetes
     values:
       layout: single
       author_profile: true
