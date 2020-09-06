@@ -9,66 +9,42 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>PATE Framework - Ivy’s blog</title>
+<!-- begin _includes/seo.html --><title>Core Concepts - Clare’s not-so-secret blog</title>
 <meta name="description" content="Are you a visual learner like me? Then hurry up and check out this comic on differential privacy! ">
 
 
-  <meta name="author" content="Ivoline Ngong">
-
+  <meta name="author" content="Ivan-Clare Ngong">
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Ivy's blog">
-<meta property="og:title" content="PATE Framework">
-<meta property="og:url" content="http://localhost:4000/comic/pate/">
+<meta property="og:site_name" content="Clare's not-so-secret blog">
+<meta property="og:title" content="Core Concepts">
+<meta property="og:url" content="http://localhost:4000/kubernetes/kube-core-concepts/">
 
 
   <meta property="og:description" content="Are you a visual learner like me? Then hurry up and check out this comic on differential privacy! ">
 
+  <meta property="og:image" content="http://localhost:4000/assets/images/kube_header.png">
 
+  <meta property="article:published_time" content="2020-08-09T00:00:00+02:00">
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/pate22.png">
-
-
-
-
-
-  <meta property="article:published_time" content="2020-05-09T00:00:00+03:00">
-
-
-
-
-
-  
-
-  
-
-
-<link rel="canonical" href="http://localhost:4000/comic/pate/">
-
-
-
+<link rel="canonical" href="http://localhost:4000/kubernetes/kube-core-concepts/">
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "Ivoline Ngong",
+      "name": "Ngong Ivan-Clare",
       "url": "http://localhost:4000/"
     
   }
 </script>
 
-
-
-
-
-
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ivy's blog Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Clare's not-so-secret blog Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,8 +71,6 @@
   </style>
 <![endif]-->
 
-
-
     <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
@@ -119,8 +93,6 @@
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
 
-    
-
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -129,7 +101,7 @@
           <a class="site-logo" href="/"><img src="/assets/images/small_logo2.png" alt=""></a>
         
         <a class="site-title" href="/">
-          Ivy's blog
+          Clare's not-so-secret blog
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
@@ -141,7 +113,7 @@
             </li><li class="masthead__menu-item">
               <a href="/resume/">Resume</a>
             </li><li class="masthead__menu-item">
-              <a href="/index/">About</a>
+              <a href="/about/">About</a>
             </li><li class="masthead__menu-item">
               <a href="/search/">Search</a>
             </li></ul>
@@ -156,53 +128,32 @@
   </div>
 </div>
 
-
     <div class="initial-content">
-      
-  
-
-
-
-
-
-
 
 <div class="page__hero"
   style=" background-image: url('');"
 >
   
-    <img src="/assets/images/pate22.png" alt="PATE Framework" class="page__hero-image">
+    <img src="/assets/images/kube_header.png" alt="Core Concepts" class="page__hero-image">
   
   
 </div>
-
-
-
-
 
 <div id="main" role="main">
   
   <div class="sidebar sticky">
   
-
-
 <div itemscope itemtype="https://schema.org/Person">
 
-  
-    <div class="author__avatar">
-      
-        <img src="/assets/images/profile_pic.jpg" alt="Ivoline Ngong" itemprop="image">
-      
-    </div>
-  
+  <div class="author__avatar">
+      <img src="/assets/images/profile_pic.jpg" alt="Ivan-Clare Ngong" itemprop="image">
+  </div>
 
   <div class="author__content">
     
-      <h3 class="author__name" itemprop="name">Ivoline Ngong</h3>
-    
-    
+      <h3 class="author__name" itemprop="name">Ivan-Clare Ngong</h3>
       <div class="author__bio" itemprop="description">
-        <p>AI rocks my world.</p>
+        <p>Journyeing through the cloud, rocking the world of distibuted computing.</p>
 
       </div>
     
@@ -213,77 +164,15 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Turkey</span>
-        </li>
-      
-
-      
-        
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">France</span>
+        </li>        
+            <li><a href="mailto:ngongivan@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
           
-            <li><a href="mailto:ivolinengong@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
-          
-        
-          
-            <li><a href="https://twitter.com/IvolineNgong" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
-          
-        
-          
-            <li><a href="https://www.linkedin.com/in/ivolinengong/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
-          
-        
-          
-            <li><a href="https://github.com/ivyclare" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-      
+            <li><a href="https://twitter.com/Ivanngong" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
 
-      
+            <li><a href="https://www.linkedin.com/in/ngong-ivan-clare" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
 
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
+            <li><a href="https://github.com/ivan-claire" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
 
       <!--
   <li>
@@ -296,16 +185,6 @@
   </div>
 </div>
 
-  
-    
-      
-      
-      
-      
-    
-    
-      
-
 <nav class="nav__list">
   
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
@@ -315,71 +194,40 @@
   </ul>
 </nav>
 
-    
-  
   </div>
 
-
-
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="PATE Framework">
+    <meta itemprop="headline" content="Core Concepts">
     <meta itemprop="description" content="Are you a visual learner like me? Then hurry up and check out this comic on differential privacy!">
-    <meta itemprop="datePublished" content="2020-05-09T00:00:00+03:00">
+    <meta itemprop="datePublished" content="2020-08-09T00:00:00+02:00">
     
 
     <div class="page__inner-wrap">
       
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">PATE Framework
-</h1>
-          
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-          
-        </header>
+      <header>
+        <h1 id="page-title" class="page__title" itemprop="headline">Core Concepts
+        </h1>
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+          less than 5 minutes read
+        </p> 
+      </header>
       
-
       <section class="page__content" itemprop="text">
-        
         <p>Do you want to join the hospital team in implementing the classifier for COVID19 through Differential Privacy?. Then head over to this <a href="https://zumrutmuftuoglu.github.io/OM-Study-Group/pate-on-covid/">here</a> to join them. You will find a coding tutorial that shows a step by step hands on implementation of the classifier.</p>
-
-<p>The Github repository can be found <a href="https://github.com/ivyclare/PrivateAI/blob/master/COVID_PATE_Analysis.ipynb">HERE</a>:</p>
-
-        
+        <p>The Github repository can be found <a href="https://github.com/ivyclare/PrivateAI/blob/master/COVID_PATE_Analysis.ipynb">HERE</a>:</p>
       </section>
 
       <footer class="page__meta">
-        
-        
-
-
-  
-
-
-  
-  
-  
 
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
-    
       
-      
-      <a href="/categories/#comic" class="page__taxonomy-item" rel="tag">comic</a>
+      <a href="/categories/#kubernetes" class="page__taxonomy-item" rel="tag">kubernetes</a>
     
     </span>
   </p>
-
-
-        
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-05-09T00:00:00+03:00">May 9, 2020</time></p>
+      <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-08-09T00:00:00+02:00">August 9, 2020</time></p>
         
       </footer>
 
@@ -388,27 +236,19 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=PATE+Framework%20http%3A%2F%2Flocalhost%3A4000%2Fcomic%2Fpate%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Core+Concepts%20http%3A%2F%2Flocalhost%3A4000%2Fkubernetes%2Fkube-core-concepts%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fcomic%2Fpate%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fkubernetes%2Fkube-core-concepts%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fcomic%2Fpate%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fkubernetes%2Fkube-core-concepts%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
-
-      
     </div>
-
-    
   </article>
-
-  
   
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
-        
-          
             
       </div>
     </div>
@@ -416,8 +256,6 @@
 </div>
 
     </div>
-
-    
 
     <div id="footer" class="page__footer">
       <footer>
@@ -428,29 +266,11 @@
   <ul class="social-icons">
     
       <li><strong>Follow:</strong></li>
-    
-
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-
     <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Ivoline Ngong. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2020 Ngong Ivan-Clare. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -459,33 +279,19 @@
   <script src="/assets/js/main.min.js"></script>
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
-
-
-
-
-
-
-    
   <script>
     var disqus_config = function () {
-      this.page.url = "http://localhost:4000/comic/pate/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/comic/pate"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "http://localhost:4000/kubernetes/kube-core-concepts/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/kubernetes/kube-core-concepts"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');
-      s.src = 'https://ivyclare-github-io.disqus.com/embed.js';
+      s.src = 'https://ivanclare-github-io.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
   </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-  
-
-
-
-
 
   </body>
 </html>
